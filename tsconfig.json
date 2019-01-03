@@ -4,11 +4,12 @@
     "target": "es6",
     "module": "commonjs",
     "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true
-  },
-  "files": [
-    "hello.ts"
-  ]
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "rootDir/*": [
+        "./*"
+      ]
+    }
+  }
 }

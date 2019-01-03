@@ -1,9 +1,10 @@
 {
   "scripts": {
-    "demo": "ts-node hello.ts"
+    "test": "ts-node -r tsconfig-paths/register test/hello-test.ts"
   },
   "devDependencies": {
     "ts-node": "7.0.1",
+    "tsconfig-paths": "3.7.0",
     "typescript": "3.2.2"
   }
 }
